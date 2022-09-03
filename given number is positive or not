@@ -1,0 +1,22 @@
+(function(){
+  function isPositive(num1,num2) {
+
+    var result;
+
+    if (num1 >= 0,num1 != -1) {
+        result = true;
+        console.log(num1+"postive" )
+        if (isNaN(num2)) {
+
+        } else if (num2 < 0,num1 != -1) {
+        result = false;
+        console.log(num2+"Negative" )
+    }
+    return !result;
+     }
+
+
+  }
+let num1 =123, num2 =-12
+console.log(isPositive(num1,num2))
+})();
