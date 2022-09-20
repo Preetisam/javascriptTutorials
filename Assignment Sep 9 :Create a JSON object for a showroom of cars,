@@ -38,3 +38,12 @@
 }
 
 ]
+let max =0;
+let index;
+for(let i in cars){
+if(cars[i].price>max){
+max=cars[i].price;
+insex=i;
+}
+}
+console.log(`${[cars[index].brand]}-${cars[index].model}price:${[cars[index].price]}`);
