@@ -1,0 +1,40 @@
+
+   let showRooms =[
+    {"Name": "MG Motor India",
+    "Location": "Telengana",
+    "Cars":[
+        {"Acura MDX":4,
+    "Audi Q3 Quattro Sport":7,
+    "Chevy Trailblazer":89,
+    "Chevrolet Trax":19,
+    "Dodge Durango":62,
+    "Dodge Journey":12,
+    "Ford Escape":1,
+    "Ford Everest":12  }]
+},
+{
+    "Name": "kia motors-svm cars pvt",
+    "Location": "Tamil Nadu",
+    "Cars":[
+        {"AC 3000ME":7,
+    "Alfa Romeo 4C":12,
+    "Alpine A108":12,
+    "Audi TT":6,
+    "Bentley Continental GT":8,
+    "Buick Reatta":8,
+    "Bugatti EB110":7,
+    "BMW Z8":4}]
+},
+
+{
+    "Name": "MG Motor India",
+    "Location": "Banglore",
+    "Cars":[{"Aixam 400":1,
+    "BMW I3":2,
+    "Bollore Bluecar":2,
+    "BYD e6":8,
+    "Buddy Cab":2,
+    "Ford Focus Electric":12}]
+}
+
+]
