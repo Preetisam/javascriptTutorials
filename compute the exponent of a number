@@ -1,0 +1,11 @@
+function baseExponent(b){
+if ( b <= 0) return "Input invalid";
+if (b >= 0){
+let base = parseInt(b / 10);
+let exponent = b % 10;
+let output = base ** exponent;
+console.log(output);
+}
+
+}
+baseExponent(82);
