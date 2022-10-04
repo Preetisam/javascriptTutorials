@@ -1,0 +1,18 @@
+function gcd(a,b){
+
+while(a!=b){
+ if(a > b){
+ a = a - b;
+ 
+ } else if(a < b){
+  b = b - a;
+ 
+ }
+
+}
+
+return a;
+
+}
+console.log(gcd(2,20));
+//Time Complexity is (a+b)
