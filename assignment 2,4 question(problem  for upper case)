@@ -1,0 +1,15 @@
+function uppercase(){
+    let arr1=["divya","seetha","shanmugi","mohan khan","mohan tata"]
+    
+    for(var i=0;i<arr1.length;i++){
+    
+
+    const upper=arr1[i].toUpperCase();
+
+    console.log(upper);
+    
+
+
+}
+}
+uppercase();
