@@ -1,0 +1,24 @@
+function string(){
+let str = " WELCOME";
+let left= str[0];
+let right=str.length-1
+
+    let mid = Math.floor(left+right/2);
+    for(let i=0;i<=str.length;i++){
+        
+    
+        
+        for(let j=1;mid<i;j--){
+       
+
+                
+            
+
+   
+            console.log("WELCOME");
+        }
+        console.log("</br>");
+    }
+
+}
+string();
