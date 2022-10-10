@@ -1,24 +1,14 @@
-function string(){
-let str = " WELCOME";
-let left= str[0];
-let right=str.length-1
-
-    let mid = Math.floor(left+right/2);
-    for(let i=0;i<=str.length;i++){
-        
-    
-        
-        for(let j=1;mid<i;j--){
-       
-
-                
-            
-
-   
-            console.log("WELCOME");
-        }
-        console.log("</br>");
+function leftRotate(arr, n, k) {
+  let mod = k % n;
+  for (let i = 0; i < n; i++) {
+    for(let j = 1; j <=i; j++){
+          console.log(arr[(mod + i) % n] + " ");
     }
-
+  }
 }
-string();
+let Array = "W E L C O M E";
+const splitted = Array.split(" ");
+let left = 0;
+let right = splitted.length;
+let mid = Math.floor(left + right/2);
+leftRotate(splitted,right,mid);
