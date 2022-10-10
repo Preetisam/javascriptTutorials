@@ -13,11 +13,11 @@ function calculateHalts(halts, totalDistance) {
 }
 
 let X = 10; // petrol available
-let K = 20; // 30km per litre
+let K = 20; // 
 let totalDistanceByA = X * K;
 
 let Y = 12; // petrol available
-let L = 15// 30km per litre
+let L = 15// 
 let totalDistanceByB = Y * L;
 
 let halts = [40,98,134,179,211,248];
