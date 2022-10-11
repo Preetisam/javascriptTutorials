@@ -1,0 +1,30 @@
+
+
+function countFreq(arr, n) {
+    let freq = new Map();
+    arr.sort((a, b) => a - b)
+ 
+    // Traverse through array elements and
+    // count frequencies
+    for (let i = 0; i < n; i++) {
+        if (freq.has(arr[i])) {
+            freq.set(arr[i], freq.get(arr[i]) + 1)
+        } else {
+            freq.set(arr[i], 1)
+        }
+    }
+ 
+ 
+    // Traverse through map and print frequencies
+    for (let x of freq)
+        document.write(x[0] + " " + x[1] + "<br>");
+}
+ 
+// Driver Code
+ 
+// Given array
+let arr = [10, 20, 20, 10, 10, 20, 5, 20];
+let n = arr.length;
+ 
+// Function Call
+countFreq(arr, n);
