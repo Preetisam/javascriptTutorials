@@ -1,1 +1,15 @@
-Let obj={}
+let laptop ={
+    brandName: "Dell Inspiron",
+    dispaly:"15.6 inch",
+    processor:"Intel i5=1135G7",
+    operatingSystem:"Windows 11"
+}
+//Accessing properties by dot method
+console.log(laptop.brandName);
+console.log(laptop.display);
+//Acessing proprties by array elemnts
+console.log(laptop["operatingSystem"]);
+console.log(laptop["processor"]);
+//Accessing properties by logging in the console
+console.log("laptop properties: ");
+console.log(laptop)
